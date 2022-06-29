@@ -10,13 +10,15 @@ let belowTube=new Image();
 let audio = new Audio();
 let audio2 = new Audio();
 let audio3= new Audio();
+
 birdimg.src="img/bird.png";
 backgroundGame.src="img/backgroundgame.png";
 frontTube.src="img/frontTube.png";
 belowTube.src="img/belowTube.png";
-audio.src="flysound.mp3"
-audio2.src="congrat.mp3"
-audio3.src="losesound.mp3"
+audio.src="audio/flysound.mp3"
+audio2.src="audio/congrat.mp3"
+audio3.src="audio/losesound.mp3"
+
 let score=0;
 let tubeDistanceUpDowns=150;
 let tubeDistanceLeftRight;
